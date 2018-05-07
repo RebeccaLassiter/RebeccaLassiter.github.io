@@ -1,0 +1,108 @@
+
+#title{
+  height: 15%;
+  width: 45%;
+  font-family: "Arial";
+  font-size: 5vw;
+  font-weight: bolder;
+  color: #1c3144;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-right: 0px;
+  margin-bottom: 0%;
+}
+
+.row{
+  height: 300%;
+}
+.tiles{
+  width: 115%;
+  display: block;
+  position: relative;
+  top: -10vh;
+ 
+  /*top: -70px;
+  left: -30px;*/
+  -webkit-transform: rotate(160deg);
+  overflow: hidden;
+
+}
+
+.navy{
+  background-color: #1c3144;
+  color: #d00000;
+  padding: 5%;
+  margin: 0.5%;
+}
+.navy:hover{
+  background-color: #223b52;
+  text-color: #223b52;
+}
+
+.grey{
+  background-color: #a2aebb;
+  color: #3f88c5;
+  padding: 5%;
+  margin: 0.5%;
+}
+.grey:hover{
+  background-color: #adb8c3;
+  text-color: #adb8c3;
+}
+
+.blue{
+  background-color: #3f88c5;
+  color: #3f88c5;
+  padding: 5%;
+  margin: 0.5%;
+}
+.blue:hover{
+  background-color: #5d9bce;
+  text-color: #5d9bce;
+}
+
+.red{
+  background-color: #d00000;
+  color: #a2aebb;
+  padding: 5%;
+  margin: 0.5%;
+}
+.red:hover{
+  background-color: #ef0000;
+  text-color: #ef0000;
+}
+
+.yellow{
+  background-color: #ffe500;
+  color: #1c3144;
+  padding: 5%;
+  margin: 0.5%;
+}
+.yellow:hover{
+  background-color: #ffed4e;
+  text-color: #ffed4e;
+}
+
+.invisible{
+  padding: 5%;
+  margin: 0.5%;
+}
+
+.withWords{
+  -webkit-transform: rotate(180deg);
+  height: 20px;
+  font-family: "Arial";
+  font-weight: bolder;
+  font-size: 1.75vw;
+
+}
+
+.words{
+  margin-left: -2.5vw;
+  margin-top: -15px;
+}
+
+.resumeAndProjects{
+  margin-left: -3.25vw;
+  margin-top: -15px;
+}
