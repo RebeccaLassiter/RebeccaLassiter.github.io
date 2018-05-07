@@ -1,0 +1,66 @@
+
+.navbar-default {
+    background-color: #a2aebb;
+    /*border-color: #1c3144;*/
+    font-family: "Arial";
+    font-weight: bolder;
+    color: #1c3144;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #1c3144;
+    font-family: "Arial";
+    font-weight: bolder;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #cfd5dc;
+    color: #1c3144;
+    font-family: "Arial";
+    font-weight: bolder;
+}
+.wrapper{
+  margin-top: 3%;
+  margin-left: 18vw;
+  height: 50vh;
+  background-color: #fff176;;
+  /* background-color: #ffe500  #fff176; */
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  min-height: 150px;
+}
+.projectImage{
+  object-fit: contain;
+  height: 35vh;
+  width: 55vw;
+  margin-left: -35%;
+  margin-top: 9%;
+}
+
+.title{
+  color: #d00000;
+  font-family: "Arial";
+  font-weight: bolder;
+  height: 5%;
+  font-size: 7vh;
+  min-height: 20px;
+
+}
+
+.projectDescription{
+  color: #1c3144;
+  font-family: "Arial";
+  font-weight: bolder;
+  font-size: 3vh;
+  height: 50vh;
+  margin-top: 3%;
+  background-color: #fff176;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  min-height: 150px;
+
+}
+
+
+.projectDescription p{
+  margin-top: 14%;
+  vertical-align: middle;
+}
