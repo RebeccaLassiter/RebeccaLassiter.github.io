@@ -1,0 +1,147 @@
+
+
+.navbar-default {
+    background-color: #a2aebb;
+    /*border-color: #1c3144;*/
+    font-family: "Arial";
+    font-weight: bolder;
+    color: #1c3144;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #1c3144;
+    font-family: "Arial";
+    font-weight: bolder;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #cfd5dc;
+    color: #1c3144;
+    font-family: "Arial";
+    font-weight: bolder;
+}
+body{
+  background-color: #edeeef;
+}
+
+/* #banner{
+  z-index: -1;
+  width: 100%;
+  opacity: 0.3;
+  margin-top: -2%;
+}
+
+.wrapper{
+  position: relative;
+  top: -50vh;
+  margin-bottom: -30vh;
+}
+
+.bio{
+  color: #1c3144;
+  font-family: "Arial";
+  font-weight: bolder;
+  font-size: 3vh;
+  margin: 10%;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  text-align: center;
+  min-height: 80px;
+  min-width: 200px;
+
+} */
+
+#banner{
+  z-index: -1;
+  height: 61.5vh;
+  width: 100vw;
+  min-height: 200px;
+  /* width: 100%; */
+  opacity: 0.3;
+  margin-top: -2%;
+  padding-bottom: 25px;
+  object-fit: cover;
+}
+
+
+.bio{
+  color: #1c3144;
+  font-family: "Arial";
+  font-weight: bolder;
+  font-size: 15px;
+  margin-top: -43vh;
+  margin-bottom: 38vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  opacity: 1;
+  /* margin: 10%;
+  margin-top: 5%;
+  margin-bottom: 4%; */
+  text-align: center;
+
+}
+.title{
+  color: #3f88c5;
+  font-family: "Arial";
+  font-weight: bolder;
+  margin-left: 70px;
+  font-size: 50px;
+  text-align: center;
+  min-height: 40px;
+  min-width: 80px;
+}
+
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  /* padding-right: 12.5vw; */
+  max-width: 1200px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+.miscTiles{
+  margin-left: 50px;
+  margin-right: none;
+  padding-right: none;
+  margin-bottom: 5%;
+  width: 306px;
+  height: 306px;
+  border-radius: 4px;
+  border: 3px #a2aebb solid;
+}
+.miscPics{
+  /* object-fit: contain; */
+  /* height: 45%; */
+  /* width: 100%; */
+  width: 300px;
+  z-index: -1;
+}
+.miscTiles p{
+  z-index: 1;
+  opacity: 0;
+  font-family: "Arial";
+  font-weight: bolder;
+  color: #1c3144;
+  font-size: 14;
+  margin-top: -70%;
+  margin-left: 10%;
+  vertical-align: middle;
+  height: 45%;
+  width: 80%;
+  text-align: center;
+
+}
+
+.miscTiles:hover p{
+  opacity: 1;
+  transition: .5s ease;
+  /* backface-visibility: hidden; */
+}
+
+.miscTiles:hover .miscPics{
+  opacity: 0.3;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
