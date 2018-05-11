@@ -106,8 +106,8 @@ body{
   margin-right: none;
   padding-right: none;
   margin-bottom: 5%;
-  width: 305px;
-  height: 305px;
+  width: 306px;
+  height: 306px;
   border-radius: 4px;
   border: 3px #a2aebb solid;
 }
@@ -117,8 +117,6 @@ body{
   /* width: 100%; */
   width: 300px;
   z-index: -1;
-
-
 }
 .miscTiles p{
   z-index: 1;
