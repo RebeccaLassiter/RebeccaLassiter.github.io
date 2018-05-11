@@ -70,7 +70,7 @@ body{
   margin-top: -43vh;
   margin-bottom: 38vh;
   padding-left: 15vw;
-  padding-right: 15vw; 
+  padding-right: 15vw;
   opacity: 1;
   /* margin: 10%;
   margin-top: 5%;
@@ -82,31 +82,42 @@ body{
   color: #3f88c5;
   font-family: "Arial";
   font-weight: bolder;
-  margin-left: .5%;
-  font-size: 8vh;
+  margin-left: 70px;
+  font-size: 50px;
   text-align: center;
   min-height: 40px;
   min-width: 80px;
 }
 
 
-
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  /* padding-right: 12.5vw; */
+  max-width: 1200px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
 
 .miscTiles{
-  margin-left: 3%;
+  margin-left: 50px;
   margin-right: none;
   padding-right: none;
   margin-bottom: 5%;
-  min-width: 140px;
-  min-height: 200px;
-}
-.miscPics{
-  object-fit: contain;
-  height: 45%;
-  width: 100%;
-  z-index: -1;
+  width: 305px;
+  height: 305px;
   border-radius: 4px;
   border: 3px #a2aebb solid;
+}
+.miscPics{
+  /* object-fit: contain; */
+  /* height: 45%; */
+  /* width: 100%; */
+  width: 300px;
+  z-index: -1;
+
 
 }
 .miscTiles p{
@@ -115,7 +126,7 @@ body{
   font-family: "Arial";
   font-weight: bolder;
   color: #1c3144;
-  font-size: 2.5vh;
+  font-size: 14;
   margin-top: -70%;
   margin-left: 10%;
   vertical-align: middle;
