@@ -1,1 +1,3 @@
-Please only view on a desktop! Mobile version is a work in progress :/ 
+A website about myself! 
+
+View site at: https://rebeccalassiter.github.io/

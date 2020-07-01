@@ -1,4 +1,5 @@
 
+
 #title{
   height: 15%;
   width: 45%;
@@ -10,6 +11,16 @@
   margin-left: 1%;
   margin-right: 0px;
   margin-bottom: 0%;
+}
+
+#content-desktop {display: block;}
+/*#content-mobile {display: none;}*/
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
 }
 
 .row{
@@ -24,6 +35,19 @@
   /*top: -70px;
   left: -30px;*/
   -webkit-transform: rotate(160deg);
+  overflow: hidden;
+
+}
+
+.mobileTiles{
+  width: 115%;
+  display: block;
+  position: relative;
+  /*top: -7vh;*/
+ 
+  /*top: -70px;
+  left: -30px;*/
+  transform: rotate(-200deg);
   overflow: hidden;
 
 }
@@ -106,3 +130,5 @@
   margin-left: -3.25vw;
   margin-top: -15px;
 }
+
+
